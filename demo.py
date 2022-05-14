@@ -63,7 +63,7 @@ def get_attractions_for_traveler(traveler):
 
     for i in range(len(traveler_attractions)):
         if traveler_attractions[-1] == traveler_attractions[i]:
-            interests_string += "the " + traveler_attractions[i] + "."
+            interests_string += "The " + traveler_attractions[i] + "."
         else:
-            interests_string += "the " + traveler_attractions[i] + ", "
+            interests_string += "The " + traveler_attractions[i] + ", "
         return interests_string
